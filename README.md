@@ -13,10 +13,6 @@
   <img src="https://img.shields.io/badge/Model-Qwen2.5%201.5B-111111?style=flat-square" alt="Qwen">
 </p>
 
-![Course Assistant preview](docs/preview.png)
-
-> Add a screenshot at `docs/preview.png` after your first run.
-
 ## Why it exists
 
 Course material is dense. This project turns PDFs, slides, Word documents, Markdown, and text files into a searchable study companion that answers from uploaded notes only and shows the supporting sources.
