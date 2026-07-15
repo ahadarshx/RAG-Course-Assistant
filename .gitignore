@@ -1,9 +1,0 @@
-.env
-__pycache__/
-*.pyc
-data/uploads/
-vectorstore/*
-!vectorstore/.gitkeep
-.pytest_cache/
-Notes/
-Task.md
