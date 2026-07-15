@@ -1,7 +1,7 @@
 # course / assistant
 
 <p align="center">
-  <strong>A local-first, citation-first RAG assistant for university course material.</strong><br>
+  <strong>A citation-first RAG assistant for university course material.</strong><br>
   Upload notes. Ask questions. Study from evidence.
 </p>
 
@@ -15,7 +15,7 @@
 
 ## Why it exists
 
-Course material is dense. This project turns PDFs, slides, Word documents, Markdown, and text files into a searchable study companion that answers from uploaded notes only and shows the supporting sources.
+An educational RAG assistant that ingests PDFs, slides, Word documents, Markdown, and text files, answers questions from course material with citations, and is engineered to run on **hardwares with limited resources.**
 
 ```text
 course files → semantic chunks → FAISS + BM25 → reranking → cited answer
@@ -34,13 +34,12 @@ course files → semantic chunks → FAISS + BM25 → reranking → cited answer
 ## Quick start
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/RAG-Based-LLM.git
+git clone https://github.com/ahadarshx/RAG-Based-LLM.git
 cd RAG-Based-LLM
 
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-Copy-Item .env.example .env
 ```
 
 Start the API:
@@ -56,7 +55,7 @@ Start the local interface in a second terminal:
 python frontend/gradio_app.py
 ```
 
-Open `http://127.0.0.1:7860`, upload your notes, and select **Upload & index**.
+Open `http://127.0.0.1:7860`, upload your notes, and click **Upload & index**.
 
 ## Configure
 
